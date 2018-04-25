@@ -12,5 +12,3 @@ function forLoop(array) {
     }
   }return array;
 }
-let anyArray = [];
-forLoop(anyArray);
