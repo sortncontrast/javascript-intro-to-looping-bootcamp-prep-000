@@ -9,9 +9,8 @@ function forLoop(array) {
     }else {
       array.push("I am " + i + " strange loops.");
       console.log(array[i-1]);
-      return array;
     }
-  }
+  }return array;
 }
 let anyArray = [];
 forLoop(anyArray);
