@@ -1,3 +1,5 @@
+//Test 1: For Loop to Create Array 25 in Length
+
 function forLoop(array) {
   for(i=0; i<25; i++) {
     if(i===0) {
@@ -11,4 +13,13 @@ function forLoop(array) {
       console.log(array[i-1]);
     }
   }return array;
+}
+
+//Test 2: While Loops That Counts Down to Zero
+
+function whileLoop(n) {
+  while(n>=0) {
+    n -= 1;
+    console.log(n);
+  }
 }
