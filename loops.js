@@ -18,7 +18,7 @@ function forLoop(array) {
 //Test 2: While Loops That Counts Down to Zero
 
 function whileLoop(n) {
-  while(n>=0) {
+  while(n>0) {
     n -= 1;
     console.log(n);
   }
