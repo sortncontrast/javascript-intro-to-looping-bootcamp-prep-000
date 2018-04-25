@@ -12,5 +12,5 @@ function forLoop(Array) {
     }
   }
 }
-
-forLoop(anArray);
+let makeArray = [];
+forLoop(makeArray);
